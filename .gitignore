@@ -1,0 +1,8 @@
+/target/
+.classpath
+.eclipse-pmd
+.project
+.checkstyle
+.pmd
+.settings/
+
