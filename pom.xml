@@ -206,7 +206,7 @@
 				</executions>
 			</plugin>
 			<!-- Checkstyle maven plugin to fail the build on violation -->
-			<!-- <plugin>
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>2.9.1</version>
@@ -234,7 +234,7 @@
 				</executions>
 			</plugin>
 
-			PMD
+			<!-- PMD -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
@@ -256,7 +256,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			FindBugs Plug in
+			<!-- FindBugs Plug in -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>findbugs-maven-plugin</artifactId>
@@ -275,19 +275,19 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin> -->
+			</plugin>
 
 		</plugins>
 
 	</build>
-	<!-- <reporting>
+	<reporting>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-project-info-reports-plugin</artifactId>
 				<version>2.6</version>
 				<configuration>
-					Fixes bug encountered from jenkins. See http://jira.codehaus.org/browse/MPIR-137
+					<!-- Fixes bug encountered from jenkins. See http://jira.codehaus.org/browse/MPIR-137 -->
 					<dependencyLocationsEnabled>false</dependencyLocationsEnabled>
 				</configuration>
 			</plugin>
@@ -310,6 +310,6 @@
 				<version>2.5.1</version>
 			</plugin>
 		</plugins>
-	</reporting> -->
+	</reporting>
 
 </project>
