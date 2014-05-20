@@ -9,6 +9,9 @@ package com.picsauditing.action;
  */
 public class SampleError {
 	
+	/**
+	 * Sample demo to find bug
+	 */
 	public void testFindbug(){
 		String aString = "bob";
 		aString.replace('b', 'p');
