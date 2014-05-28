@@ -18,6 +18,15 @@ public class SampleError {
 		if(aString.equals("pop"));
 	}
 	
+	public void testFindbug1(){
+		
+		String aString = "bob";
+		aString.replace('b', 'p');
+		if(aString.equals("pop"));
+		
+	}
+	
+	
 	/**
 	 * Sample demo to find bug
 	 */
