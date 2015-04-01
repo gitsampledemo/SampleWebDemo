@@ -1,3 +1,3 @@
 SampleWeb
 =========
-Struts2 based sample Web project
+Struts2 based sample Web project.
