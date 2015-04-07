@@ -8,7 +8,6 @@
 	<name>SampleWeb Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
-
 	<!-- Shared version number properties -->
 	<properties>
 		<org.springframework.version>4.0.4.RELEASE</org.springframework.version>
