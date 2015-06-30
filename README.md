@@ -17,4 +17,4 @@ Handy URIs after deployment
 ------------
 Below sample URIs will be helpful to you to navigate some of the REST based service comes free with these project and ready to use after building and deploying the project.
 
-[Sample Login Page](http://ec2-52-8-210-14.us-west-1.compute.amazonaws.com/view/pages/login.jsp)
+[Sample Login Page](http://ec2-52-8-210-14.us-west-1.compute.amazonaws.com/SampleWebDemo/view/pages/login.jsp)
