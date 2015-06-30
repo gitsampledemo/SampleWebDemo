@@ -10,7 +10,7 @@
 			<result>pages/login.jsp</result>
 		</action>
 		<action name="Welcome" class="com.shah.java.struts2.action.WelcomeUserAction">
-			<result name="SUCCESS">pages/welcomeUser.jsp</result>
+			<result name="SUCCESS">welcomeUser.jsp</result>
 		</action>
 	</package>
 
