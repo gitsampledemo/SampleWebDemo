@@ -9,7 +9,7 @@ What's Included
 How to Build?
 -------------
 ----------
-We are using maven to build and manage the project dependencies. To build the project, go to the project work directory and execute below maven goal 
+We are using maven to build and manage the project dependencies. To build the project, go to the project work directory and execute the below maven goal.
 >***mvn clean install***
  
 Handy URIs after deployment
